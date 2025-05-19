@@ -1,0 +1,4 @@
+name: Queue toolbox
+description: Example module for a drush-driven queue worker
+type: module
+core_version_requirement: ^10 || ^11

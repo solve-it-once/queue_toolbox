@@ -1,0 +1,17 @@
+{
+  "name": "drupal/queue_toolbox",
+  "description": "Provides Drupal modules to integrate with Salesforce.",
+  "type": "drupal-module",
+  "homepage": "https://github.com/solve-it-once/queue_toolbox",
+  "authors": [
+    {
+      "name": "Brad Czerniak",
+      "homepage": "https://www.drupal.org/u/ao5357",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/solve-it-once/queue_toolbox",
+    "source": "https://github.com/solve-it-once/queue_toolbox"
+  }
+}

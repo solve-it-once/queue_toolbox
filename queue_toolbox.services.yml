@@ -1,0 +1,11 @@
+services:
+  logger.channel.queue_toolbox:
+    parent: logger.channel_base
+    arguments:
+      $channel: 'queue_toolbox'
+
+  queue_toolbox.commands:
+    class: \Drupal\queue_toolbox\Drush\Commands\QueueToolboxCommands
+    tags:
+      - { name: drush.command }
+    arguments: [ '@queue' ]
